@@ -9,24 +9,53 @@
 #menuPrincipal{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 30px;
     
 }
 
-#caixaPesquisa{
+.busca{
     background-color: #f7f7f7;
     color: #a4a4a4;
     border: none;
     border-radius: 8px;
-    /* padding: 34px 384px  */
+    width: 559px;
+    height: 60px;
+    /* padding-left: 20px; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* #caixaPesquisa{
+    background-color: #f7f7f7;
+    color: #a4a4a4;
+    border: none;
+    border-radius: 8px;
+             padding: 34px 384px 
     width: 559px;
     height: 60px;
     padding-left: 20px;
 
-}
+}*/
+
+
 
 #login a{
    color: #515151;
+}
+
+
+
+#botaoEntrar{
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #C92071;
+    color: white;
+    margin-left: 20px;
 }
 
 
